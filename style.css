@@ -1,0 +1,34 @@
+body{ margin: 0px; padding: 0px;} 
+.bg-image{ background-image: url("Layer1.png");}
+.width{ width: 1141px;}
+.flex{display: flex;}
+.bg-opacity{
+    background-color: black;
+    opacity: 0.4;
+    height: 100vh;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.color{ color: #18cfab;}
+.white{ color: white;}
+.padding-l{ padding-left: 5px;}
+.nav-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.end-menu{ 
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-items: center;
+}
+.quicksand{ font-family: 'Quicksand', sans-serif;}
+.gray{color: #b8b8b8;}
+.padding2{ padding-left: 23px;}
+.padding3{ padding-right: 258px;}

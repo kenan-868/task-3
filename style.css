@@ -1,6 +1,10 @@
-body{ margin: 0px; padding: 0px;} 
+body{ 
+    margin: 0px; 
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+} 
 .bg-image{ 
-    background-image: url("Layer1.png");
+    background-image: url("img/Layer1.png");
     background-size: cover;
     height: 100vh;
 }
@@ -11,9 +15,17 @@ body{ margin: 0px; padding: 0px;}
 .flex{display: flex;}
 .bg-opacity{
     background-color: black;
+    display: flex;
+    align-items: center;
     opacity: 0.4;
-    height: 100vh;
+    height: 10vh;
+    width: 100%;
 }
+.logo{
+    display: flex;
+    align-items: center;
+}
+
 .topbar{
     display: flex;
     justify-content: space-between;
@@ -32,6 +44,7 @@ body{ margin: 0px; padding: 0px;}
     align-items: center;
     justify-content: center;
     color: #b8b8b8;
+    cursor: pointer;
 }
 .end-menu{ 
     display: flex;
@@ -39,6 +52,23 @@ body{ margin: 0px; padding: 0px;}
     align-items: flex-end;
     align-items: center;
 }
-.quicksand{ font-family: 'Quicksand', sans-serif;}
-.menu-item{ padding-left: 23px; }
+
+.menu-item{ 
+    padding-left: 23px;
+ }
+.menu-item:hover{
+    color: #18cfab;
+    transition: 350ms;
+}
 .padding3{ padding-right: 258px;}
+.position-a{
+    position: absolute;
+    padding-left: 20px;
+    color: white;
+}
+.position-r{
+    position: relative;
+}
+.padding-b{
+    margin-bottom: 245px;
+}

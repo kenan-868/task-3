@@ -72,3 +72,49 @@ body{
 .padding-b{
     margin-bottom: 245px;
 }
+.border-b{
+    border-bottom: 3px solid #18cfab;
+}
+.font-size{
+    font-size: 14px;
+}
+.f-size{
+    font-size: 50px;
+}
+.padding-top{
+    padding-top: 247px;
+}
+.margin-45{
+    margin-top: -45px;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.btngreen{
+    width: 153px;
+    height: 58px;
+    background-color: #18cfab;
+    color: white;
+    border-radius: 3px ;
+    border: none;
+    border-top: 5px solid white;
+}
+.padding150{
+    padding-top: 150px;
+}
+
+.btnblue{
+    background-color: #00cbf6;
+    width: 153px;
+    height: 58px;
+    color: white;
+    border-radius: 3px ;
+    border: none;
+    border-top: 5px solid white;
+    margin-left: 23px;
+
+}

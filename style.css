@@ -33,6 +33,11 @@ body{
     
 }
 .green-text{ color: #18cfab;}
+.gray-text{
+    color: #d8d8d8;
+    font-size: 16px;
+    padding-bottom: 83px;
+}
 .white{ color: white;}
 .logo-text{ 
     padding-left: 5px;
@@ -46,21 +51,40 @@ body{
     color: #b8b8b8;
     cursor: pointer;
 }
-.end-menu{ 
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    align-items: center;
-}
-
 .menu-item{ 
     padding-left: 23px;
  }
 .menu-item:hover{
     color: #18cfab;
     transition: 350ms;
+    border-bottom: 3px solid #18cfab;
 }
-.padding3{ padding-right: 258px;}
+.navBar {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.navBar-list-item {
+    text-decoration: none;
+    color: #b8b8b8;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 20px;
+    padding-bottom: 25px;
+}
+
+.navBar-list-item:hover {
+    color: #18cfab;
+    border-bottom: 2px solid #18cfab;
+}
+
+.search-icon {
+    font-size: 18px;
+    color: #b8b8b8;
+    margin-left: 10px;
+    cursor: pointer;
+}
 .position-a{
     position: absolute;
     padding-left: 20px;
@@ -69,23 +93,18 @@ body{
 .position-r{
     position: relative;
 }
-.padding-b{
-    margin-bottom: 245px;
-}
-.border-b{
-    border-bottom: 3px solid #18cfab;
-}
-.font-size{
+.just-text{
     font-size: 14px;
+    color: #b8b8b8;
+    margin-top: -45px;
+    letter-spacing: 3px;
 }
-.f-size{
+.creative-text{
     font-size: 50px;
+    color: white;
 }
 .padding-top{
     padding-top: 247px;
-}
-.margin-45{
-    margin-top: -45px;
 }
 .center{
     justify-content: center;
@@ -102,9 +121,11 @@ body{
     border-radius: 3px ;
     border: none;
     border-top: 5px solid white;
+    cursor: pointer;
 }
-.padding100{
+.buttons{
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .btnblue{
@@ -116,6 +137,7 @@ body{
     border: none;
     border-top: 5px solid white;
     margin-left: 23px;
+    cursor: pointer;
 
 }
 .rectangle{
@@ -123,6 +145,7 @@ body{
     height: 367px;
     background-color: #1c2a33;
     border-top: 6px solid #18cfab;
+    cursor: pointer;
 
 }
 .rectangle2{
@@ -130,5 +153,16 @@ body{
     height: 367px;
     background-color: #18cfab;
     border-top: 6px solid white;
+    cursor: pointer;
 
+}
+.everything-text{
+    font-size: 40px;
+    color: #18cfab;
+}
+.bg-img{
+    background-image: url("img/Layer\ 2.png");
+    background-size: cover;
+    height: 100vh;
+    background-color: transparent;
 }
